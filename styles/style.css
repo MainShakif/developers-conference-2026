@@ -3,3 +3,39 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+/* common styles */
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.text-primary {
+  color: #575757;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  padding: 12px 41px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+
+/** navbar styles */
+nav {
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Menu-items ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.Menu-items ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+}
