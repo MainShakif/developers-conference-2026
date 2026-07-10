@@ -23,7 +23,43 @@
   border: none;
   cursor: pointer;
 }
-
+.blue-outline-btn {
+  background-color: white;
+  padding: 15px 45px;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.black-outline-btn {
+  background-color: white;
+  padding: 15px 45px;
+  color: black;
+  border: 1px solid black;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+.section-heading h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 12px;
+}
+.section-heading p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d1b2a;
+}
 /** navbar styles */
 nav {
   padding: 23px 0;
@@ -135,4 +171,71 @@ nav {
 .speaker-card .about-speaker p {
   font-size: 14px;
   font-weight: 500;
+}
+
+/** Secure Your Spot styles  */
+#pricing-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.pricing-card {
+  border: 1px groove #e5e7eb;
+  padding: 32px;
+  margin: 50px 0;
+  border-radius: 12px;
+}
+
+.pricing-card h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #888888;
+  margin-bottom: 8px;
+}
+.pricing-card h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 6px;
+}
+
+.pricing-card p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.services-lists {
+  margin-top: 30px;
+}
+.services-lists li {
+  margin-bottom: 10px;
+}
+.services-lists li a {
+  color: #333333;
+}
+
+.highlight {
+  background-color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+}
+
+.highlight h2,
+p {
+  color: white;
+}
+
+.highlight h4 {
+  color: #93c5fd;
+}
+
+.highlight .services-lists li a {
+  color: #888888;
+}
+
+.highlight-2 {
+  background-color: #e5e7eb33;
+  border: 1px solid #e5e7eb;
 }
