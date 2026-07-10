@@ -23,6 +23,10 @@
   border: none;
   cursor: pointer;
 }
+.common-btn:hover {
+  background-color: darkblue;
+}
+
 .blue-outline-btn {
   background-color: white;
   padding: 15px 45px;
@@ -33,6 +37,9 @@
   font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
+}
+.blue-outline-btn:hover {
+  background-color: rgba(74, 74, 157, 0.332);
 }
 .black-outline-btn {
   background-color: white;
@@ -45,6 +52,7 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
 .section-heading {
   text-align: center;
   margin-top: 100px;
@@ -58,7 +66,7 @@
 .section-heading p {
   font-size: 16px;
   font-weight: 500;
-  color: #0d1b2a;
+  color: #0472f0;
 }
 /** navbar styles */
 nav {
@@ -78,7 +86,10 @@ nav {
   text-decoration: none;
   font-size: 1rem;
 }
-
+.Menu-items ul li a:hover {
+  /* background-color: #1d4ed8; */
+  color: purple;
+}
 /**Banner styles */
 #banner-container {
   background:
@@ -261,9 +272,9 @@ p {
 
 .venue-content h3 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 15px;
-  color: #111827;
+  color: #0472f0;
 }
 
 .venue-description {
@@ -336,7 +347,11 @@ p {
   margin-top: 70px;
   text-align: right;
 }
-
+.buttons .outline {
+  background-color: rgba(246, 239, 239, 0.349);
+  color: black;
+  border: 1px solid #575757;
+}
 /** footer styles */
 footer {
   background-color: #0d1b2a;
