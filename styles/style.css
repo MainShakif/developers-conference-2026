@@ -302,7 +302,7 @@ p {
 .detail-item strong {
   display: block;
   margin-bottom: 5px;
-  color: #111827;
+  color: #0472f0;
 }
 
 .detail-item P {
@@ -321,6 +321,7 @@ p {
 }
 .venue-facilities h4 {
   margin-bottom: 15px;
+  color: #0472f0;
 }
 
 .venue-facilities ul {
