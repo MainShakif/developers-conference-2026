@@ -239,3 +239,30 @@ p {
   background-color: #e5e7eb33;
   border: 1px solid #e5e7eb;
 }
+
+/* footer styles */
+footer {
+  background-color: #0d1b2a;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #575757;
+}
+.footer-img {
+  width: 90px;
+}
+.footer-container a i {
+  color: #1d4ed8;
+  font-size: 22px;
+}
+
+.copyright-msg h4 {
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
