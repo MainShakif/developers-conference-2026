@@ -225,6 +225,9 @@ nav {
 .services-lists li {
   margin-bottom: 10px;
 }
+.services-lists li::marker {
+  color: #0472f0;
+}
 .services-lists li a {
   color: #333333;
 }
