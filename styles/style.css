@@ -233,6 +233,8 @@ nav {
 }
 
 .highlight {
+  position: relative;
+
   background-color: #0d1b2a;
   border: 1px solid #0d1b2a;
 }
@@ -254,6 +256,14 @@ p {
   background-color: #e5e7eb33;
   border: 1px solid #e5e7eb;
 }
+/* .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.badge img {
+  width: 70px;
+} */
 
 /** Venue Section styles */
 .venue-section {
